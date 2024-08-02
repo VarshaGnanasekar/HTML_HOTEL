@@ -1,0 +1,137 @@
+.logo
+{
+  position: fixed;
+  top: 8px;
+  left: 53px;
+  width: 109px;
+  height: 88px;
+  object-fit: cover;
+}
+
+.type
+{
+  display: flex;
+  justify-content: center;
+  top: 25px;
+  gap: 20px;
+  position: absolute;
+  right: 689px;
+
+}
+
+.flex2
+{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    gap: 20px;
+    top: 22px;
+    right: 20px;
+    position:fixed;
+}
+.but
+{
+  font-size:20px;
+  border:none;
+  border-radius: 40px;
+  background-color: white;
+  transition: box-shadow 0.3s ease;
+  padding:13px;
+}
+
+.options
+{
+    border-radius: 40px;
+    border: none;
+    font-size: 22px;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+    padding:13px;
+}
+
+
+  .outer {
+    margin: 10px;
+    text-align: center;
+    border:1px solid grey;
+  }
+
+  .outer:hover
+  {
+    border: 2px solid black;
+    
+  }
+
+.globe
+{
+  border-radius:100px;
+  border: none;
+  font-size: 22px;
+  background-color: white;
+  transition: box-shadow 0.3s ease;
+  padding:13px;
+  border-radius: 50%; 
+  width: 50px;
+  height: 50px; 
+}
+
+
+.but:hover, .options:hover,.globe:hover{
+  background-color:lightgray;
+}
+.headings{
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  background: white;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 250px;
+    width: 100%;
+    gap:15px;
+    margin:20px 20px;
+}
+
+.icons
+{
+  position: fixed;
+  top: 120px;
+  border: none;
+  background-color: white;
+  height: 97px;
+  display: flex;
+  gap:25px;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.ii
+{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    background-color: white;
+
+}
+.ii:hover
+{
+  color: black;
+}
+
+
+.food-img
+{
+  height:250px;
+  width:250px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  
+}
